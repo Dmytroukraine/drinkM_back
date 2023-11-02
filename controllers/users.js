@@ -42,7 +42,7 @@ const updateSubscription = async (req, res) => {
   if (!user) {
     throw HttpError(
       404,
-      "User with this email has not been registered yet in Drink Master App. Please register first."
+      "User with this email has not been registered. Please register first."
     );
   }
 
